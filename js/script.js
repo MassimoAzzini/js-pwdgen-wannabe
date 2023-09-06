@@ -7,8 +7,8 @@
 
 
 //1.
-const name = prompt('Inserire il nome');
-const lastName = prompt('Inserire il cognome');
+const name = prompt('Inserire il nome').split(' ').join('');
+const lastName = prompt('Inserire il cognome').split(' ').join('');
 const favoriteColor = prompt('Inserire il colore preferito');
 
 //2.3.
