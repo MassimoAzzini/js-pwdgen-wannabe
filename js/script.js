@@ -12,9 +12,16 @@ const lastName = prompt('Inserire il cognome');
 const favoriteColor = prompt('Inserire il colore preferito');
 
 //2.3.
-const currentYear = 2023;
+const currentYear = '2023';
 
 const lastTwoNumberYear = currentYear.substring(2, 4);
 
 console.log(lastTwoNumberYear);
 
+
+// 4.5.
+const messaggio = `
+${name}${lastName}${favoriteColor}${lastTwoNumberYear}
+`;
+
+document.getElementById('output').innerHTML = messaggio;
