@@ -7,7 +7,7 @@
 
 
 //1.
-const name = prompt('Inserire il nome').replace(' ', '');
+const firstName = prompt('Inserire il nome').replace(' ', '');
 const lastName = prompt('Inserire il cognome').replace(' ', '');
 const favoriteColor = prompt('Inserire il colore preferito').replace(' ', '');
 
@@ -21,5 +21,7 @@ console.log(lastTwoNumberYear);
 
 // 4.5.
 const messaggio = `
-${name}${lastName}${favoriteColor}${lastTwoNumberYear}
+${firstName}${lastName}${favoriteColor}${lastTwoNumberYear}
 `;
+
+document.getElementById('output').innerHTML = messaggio;
